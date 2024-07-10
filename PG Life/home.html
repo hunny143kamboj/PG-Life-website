@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Life - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header nav ul {
+            padding: 0;
+            list-style: none;
+        }
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: #0c0815;
+            text-decoration: none;
+        }
+        #showcase {
+            background: url('showcase.jpg') no-repeat center center/cover;
+            min-height: 400px;
+            color: #0c0815;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .intro {
+            padding: 30px 0;
+            text-align: center;
+        }
+        .intro h2 {
+            color: #50b3a2;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service {
+            background: #fff;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+            width: 30%;
+            box-sizing: border-box;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .service h3 {
+            margin-top: 0;
+            color: #50b3a2;
+        }
+        .service p {
+            margin: 0;
+        }
+        footer {
+            background: #50b3a2;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PG Life</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to PG Life</h1>
+            <p>Your Home Away From Home</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="intro">
+            <h2>About PG Life</h2>
+            <p>PG Life offers comfortable and affordable accommodation for students and professionals. Our facilities are designed to provide a home-like environment with all the necessary amenities to ensure a pleasant stay.</p>
+        </div>
+
+        <div class="services">
+            <div class="service">
+                <h3>Fully Furnished Rooms</h3>
+                <p>Enjoy our fully furnished rooms that come with comfortable beds, wardrobes, and study tables.</p>
+            </div>
+            <div class="service">
+                <h3>High-Speed Internet</h3>
+                <p>Stay connected with our high-speed internet available 24/7.</p>
+            </div>
+            <div class="service">
+                <h3>Delicious Meals</h3>
+                <p>Savor nutritious and tasty meals prepared by our in-house chefs.</p>
+            </div>
+            <div class="service">
+                <h3>Housekeeping Services</h3>
+                <p>Regular housekeeping services to ensure a clean and hygienic living environment.</p>
+            </div>
+            <div class="service">
+                <h3>Laundry Facilities</h3>
+                <p>Access to laundry facilities including washing machines and dryers, available for all residents.</p>
+            </div>
+            <div class="service">
+                <h3>24/7 Security</h3>
+                <p>Our PG accommodations are equipped with 24/7 security services to ensure the safety and security of all residents.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>PG Life &copy; 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
